@@ -1,0 +1,149 @@
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+}
+.header,
+.footer{
+ 
+  color: white;
+}
+.information,
+.sign-up{
+  background-color: white;
+}
+.quote{
+  background-color: #E5E7EB;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    padding-bottom: 5%;
+}
+.header .top{
+    padding-bottom: 20%;
+}
+.logo{
+    font-weight: 900;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap:17px;
+}
+.header-title{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.signup{
+    background-color:  rgb(0, 153, 255);
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    border:none;
+    font-size: larger;
+    padding: 2% 7%;
+}
+.left-header{
+  flex: 0.6;
+}
+
+
+img{
+    background-color: grey;
+    display: flex;
+    height: 200px;
+    width: 300px;
+    padding:0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+
+.information .container-illustration{
+    display: flex;
+    justify-content:center;
+    gap:90px;
+}
+.information .text{
+    margin-top: 120px;
+    text-align: center;
+    color:rgb(163, 163, 163);
+}
+
+.information .title{
+    font-weight: 900;
+    font-size: large;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+.illustration{
+    border: 5px solid  rgb(45, 124, 226);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+.quote{
+    padding: 4% 15%;
+    font-size: x-large;
+    font-style: oblique;
+    color: gray;
+
+}
+.author{
+    font-weight: 900;
+    font-size: bigger;
+    display: flex;
+    justify-content: flex-end;
+    color:black;
+}
+
+.sign-up{
+   
+    background-color: white;
+}
+.sign-up .box{
+    background-color: rgb(0, 153, 255);
+    color:white;
+    margin: 3% 10%;
+    padding: 2%;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box .title{
+    font-weight: 900;
+    font-size:larger;
+}
+.box .signup{
+    border:2px solid white;
+    display: flex;
+    padding:10px 20px;
+}
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
