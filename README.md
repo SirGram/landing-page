@@ -1,3 +1,4 @@
 # landing-page
 Landing Page OdinProject
-sirgram.github.io/landing-page
+
+https://sirgram.github.io/landing-page
